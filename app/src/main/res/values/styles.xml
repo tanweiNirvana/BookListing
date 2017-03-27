@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="title_item_iv_style">
+        <item name="android:layout_width">@dimen/activity_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/title_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/left</item>
+    </style>
+    <style name="title_tv_style">
+        <item name="android:layout_width">@dimen/activity_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:layout_margin">@dimen/title_margin</item>
+    </style>
+
+    <style name="style_book_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="style_book_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/book_title</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="style_linear_text">
+        <item name="android:layout_width">@dimen/activity_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="style_book_image">
+        <item name="android:layout_width">@dimen/activity_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="style_recycler_book">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/search_linear</item>
+    </style>
+
+    <style name="style_linear_search">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_below">@+id/title</item>
+        <item name="android:paddingLeft">@dimen/linear_search</item>
+        <item name="android:paddingRight">@dimen/linear_search</item>
+    </style>
+
+    <style name="stylr_search_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/search_text</item>
+    </style>
+
+    <style name="style_search_edit">
+        <item name="android:layout_width">@dimen/activity_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="style_search_image">
+        <item name="android:layout_width">@dimen/search_image</item>
+        <item name="android:layout_height">@dimen/search_image</item>
+    </style>
+</resources>

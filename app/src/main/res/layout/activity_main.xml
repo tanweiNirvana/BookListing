@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.a46146.booklisting.TitleLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/search_linear"
+        style="@style/style_linear_search">
+
+        <TextView
+            style="@style/stylr_search_text"
+            android:text="@string/search_tv" />
+
+        <EditText
+            android:id="@+id/search_et"
+            style="@style/style_search_edit"
+            android:hint="@string/search_et" />
+
+        <ImageView
+            android:id="@+id/search_iv"
+            style="@style/style_search_image"
+            android:src="@drawable/search" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_book"
+        style="@style/style_recycler_book" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

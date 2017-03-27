@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">图书清单</string>
+    <string name="title_tv_text">图书清单</string>
+    <string name="search_tv">搜索:</string>
+    <string name="search_et">请输入书籍名称</string>
+    <string name="no_books">没有你想要的书籍</string>
+    <string name="no_internet_connection">没有网络连接</string>
+</resources>
